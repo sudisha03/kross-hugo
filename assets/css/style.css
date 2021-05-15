@@ -25,7 +25,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif
+  font-family: 'Poppins', serif
 }
 
 h1,
@@ -35,16 +35,16 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: 'Poppins', serif;
   line-height: 1.2
 }
 
 h1,
 .h1 {
-  font-size: 80px
+  font-size: 50px
 }
 
-@media(max-width:991px) {
+@media(max-width:1200px) {
 
   h1,
   .h1 {
@@ -54,7 +54,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 60px
+  font-size: 50px
 }
 
 @media(max-width:991px) {
@@ -86,8 +86,8 @@ h6,
 }
 
 .btn {
-  font-size: 22px;
-  font-family: playfair display, serif;
+  font-size: 18px;
+  font-family: 'Poppins', serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -336,7 +336,7 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: 'Poppins', serif !important
 }
 
 .font-tertiary {
@@ -747,7 +747,7 @@ blockquote {
 
 .content strong {
   font-family: playfair display, serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   color: #000;
   display: inherit;
